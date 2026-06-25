@@ -31,21 +31,22 @@ This repository provides **complete, tested instructions** to run Claude Code na
 
 ## Quick Start
 
+
+### 1. Install Termux from F-Droid (Google Play version may have restrictions)
+- Available at: https://f-droid.org/packages/com.termux/
+
+### 2. Clone this repository and run the automated setup
 ```bash
-# 1. Install Termux from F-Droid (Google Play version may have restrictions)
-# Available at: https://f-droid.org/packages/com.termux/
+git clone https://github.com/eduterre/claude-code-termux.git && cd claude-code-termux && bash scripts/install.sh
+```
 
-# 2. Clone this repository
-git clone https://github.com/eduterre/claude-code-termux.git
-cd claude-code-termux
-
-# 3. Run the automated setup
-bash scripts/install.sh
-
-# 4. Verify installation
+### 3. Verify installation
+```bash
 bash scripts/verify.sh
+```
 
-# 5. Use Claude Code!
+### 4. Use Claude Code!
+```bash
 claude-code --help
 ```
 
